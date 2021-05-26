@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- META DADOS -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Projeto desenvolvido no bootcamp HTML Web Developer com intuito de aprimorar os conhecimentos de Font-end.">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Luk:Francelino">
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="static/img/icon.png" type="image/x-icon">
+
+    <!-- CSS SLICK CAROUSEL -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick-theme.css">
+
+   
+   <!-- CSS -->
+    <link rel="stylesheet" href="static/css/index.css">
+    <link rel="stylesheet" href="static/css/responsive-index.css">
+    <title>NetFlix</title>
+</head>
+<body>
+    <header>
+        <div class="conteiner-menu">
+            <a href="#">
+                <img class="logo" src="static/img/logo.png" alt="logo netflix" >
+            </a>
+            <div class="nav-bar" hidden>
+                <button class="btn-menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+           
+            <nav >
+                <a href="#" >Inicio</a>
+                <a href="#series" >Cartoons</a>
+                <a href="#filmes">Filmes</a>
+                <a href="#documentarios">Documentários</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="conteiner-main">
+            <div class="wrapper">
+                <h2 class="title">CORAGEM O CÃO COVARDE</h2>
+                <p class="description">
+                    
+                    Coragem é um cachorro que vive em uma fazenda distante onde acontecem aparições de monstros, fantasmas e outras criaturas. O animal está sempre defendendo e salvando seus donos idosos de eventos misteriosos.
+                </p>
+                <!-- role = propriedade semantica (para entendmento dos dispositivos) para indicar a funcionalidade de determinada tag -->
+                <div class="botoes">
+
+                    <button role="button" class="btn">
+                        <i class="fas fa-play"></i>
+                        ASSISTIR AGORA
+                    </button>
+
+                    <button role="button" class="btn">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+
+                </div>
+            </div>
+        </div>
+        <div class="group-box">
+
+            <h1 id="series">CARTOONS</h1>
+            <div class="carousel">
+                <img src="static/img/knd.jpg" alt="ss" />
+                <img src="static/img/billy.jpg" alt="scc" />
+                <img src="static/img/catdog.jpg" alt="alrt"/>
+                <img src="static/img/loney tunes.png" alt="caution" />
+                <img src="static/img/bravo.png" alt="warnig" />
+                <img src="static/img/doug.jpg" alt="hello" />
+                <img src="static/img/du ed eddy.jpg" alt="hi" />
+            </div>
+            <h1 id="filmes">FILMES</h1>
+            <div class="carousel">
+                <img src="static/img/barraca.jpg" alt="ss" />
+                <img src="static/img/day.jpg" alt="scc" />
+                <img src="static/img/dois irmaos.jpg" alt="alrt"/>
+                <img src="static/img/space jam.jpg" alt="caution" />
+                <img src="static/img/frozen.jpg" alt="warnig" />
+                <img src="static/img/power.jpg" alt="hello" />
+                <img src="static/img/oloco.jpg" alt="hi" />
+            </div>
+            </div>
+            <h1 id="documentarios">SÉRIES</h1>
+            <div class="carousel">
+                <img src="static/img/eita.jpg" alt="ss" />
+                <img src="static/img/good.jpg" alt="scc" />
+                <img src="static/img/The_Flash_season_2_poster_-_It's_Go_Time.png" alt="alrt"/>
+                <img src="static/img/papel.jpg" alt="caution" />
+                <img src="static/img/teen-titans_s116.h960.png" alt="warnig" />
+                <img src="static/img/alive.jpg" alt="hello" />
+                <img src="static/img/mini6.jpg" alt="hi" />
+            </div>
+        </div>
+        
+
+       
+    </main>
+     <!-- MODAL -->
+     <div class="modal-menu">
+        <h1 class="btn-close">X</h1>
+        <nav class="itens-bar">
+            
+            <a href="#" >Inicio</a>
+            <a href="#series" >Séries</a>
+            <a href="#filmes">Filmes</a>
+            <a href="#documentarios">Documentários</a>
+        </nav>
+    </div>
+
+    <!-- JS fontawesome -->
+    <script src="https://kit.fontawesome.com/c0d589f286.js" crossorigin="anonymous"></script>
+
+    <!-- JS SLICK CAROUSEL -->
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.js"></script>
+
+    
+
+    <!-- JS -->
+    
+    <script src="static/js/start.js"></script>
+
+
+</body>
+</html>
